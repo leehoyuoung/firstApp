@@ -5,7 +5,7 @@
 프로젝트 구조로 가장 크게
 app과 Gradle 파트로 나눌수 있다.
 
-## 1.app
+## 1. app
   1. manifests (환경 설정)
   어플리케이션의 기본 설정과 권한 정보, activity 정보를 담당한다.
   app/manifests/AndroidManifest.xml 경로에서 작성한다.
@@ -16,7 +16,7 @@ app과 Gradle 파트로 나눌수 있다.
   3. res(리소스)
   코드 외의 리소스로 이미지, ui 문자열, xml 레이아웃 등이 들어간다.
 
-## 2.Gradle
+## 2. Gradle
 
   build.gradle에서 SDK버전이나 테스트, 빌드 컴파일 등을 관리 할 수 있다.
   ![image](https://user-images.githubusercontent.com/105768122/219381524-41f718b0-782f-437b-85e1-2aca82a96e5f.png)
