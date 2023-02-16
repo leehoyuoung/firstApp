@@ -27,6 +27,7 @@ app과 Gradle 파트로 나눌수 있다.
   ![image](https://user-images.githubusercontent.com/105768122/219385278-811a00ed-c185-43be-83eb-bd524e2bfc95.png)
   
   같은 파일의 dependencies 부분에서 의존성 관리가 가능하다.
+ 
   쉽게 표현하면 이 부분에 implementation 'androidx.core:core-ktx:1.7.0' 같은 문구를 삽입 하면 
   내 프로젝트에 다른 사람의 라이브러리를 가져와 사용할 수 있다는 것이다.
   
